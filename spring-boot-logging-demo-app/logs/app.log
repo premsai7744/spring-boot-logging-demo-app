@@ -1,0 +1,129 @@
+2026-09-15T21:00:46.340+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] c.p.SpringBootLoggingDemoAppApplication  : Starting SpringBootLoggingDemoAppApplication using Java 21.0.6 with PID 11896 (C:\Users\mutha\git\spring-boot-logging-demo-app\spring-boot-logging-demo-app\target\classes started by mutha in C:\Users\mutha\git\spring-boot-logging-demo-app\spring-boot-logging-demo-app)
+2026-09-15T21:00:46.343+05:30 DEBUG 11896 --- [spring-boot-logging-demo-app] [restartedMain] c.p.SpringBootLoggingDemoAppApplication  : Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-09-15T21:00:46.344+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] c.p.SpringBootLoggingDemoAppApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-15T21:00:46.408+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\mutha\.m2\repository\com\oracle\database\jdbc\ojdbc17\23.9.0.25.07\ojdbc17-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/mutha/.m2/repository/com/oracle/database/jdbc/ojdbc17/23.9.0.25.07/oraclepki.jar
+2026-09-15T21:00:46.409+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-15T21:00:46.409+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-15T21:00:47.522+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-15T21:00:47.556+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2026-09-15T21:00:48.410+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9999 (http)
+2026-09-15T21:00:48.438+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-15T21:00:48.439+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-15T21:00:48.513+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2103 ms
+2026-09-15T21:00:48.838+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-15T21:00:48.954+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.24.Final
+2026-09-15T21:00:49.825+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-15T21:00:49.876+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-15T21:00:49.881+05:30  WARN 11896 --- [spring-boot-logging-demo-app] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-09-15T21:00:50.611+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@4263dd3c
+2026-09-15T21:00:50.613+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-15T21:00:51.032+05:30  WARN 11896 --- [spring-boot-logging-demo-app] [restartedMain] org.hibernate.orm.jdbc                   : HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-09-15T21:00:51.045+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521:orcl]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 19.3
+	Default catalog/schema: undefined/C##PREMSAI
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-15T21:00:51.833+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-15T21:00:51.849+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-15T21:00:52.145+05:30  WARN 11896 --- [spring-boot-logging-demo-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-15T21:00:52.945+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9999 (http) with context path '/premit'
+2026-09-15T21:00:52.963+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [restartedMain] c.p.SpringBootLoggingDemoAppApplication  : Started SpringBootLoggingDemoAppApplication in 7.256 seconds (process running for 8.569)
+2026-09-15T21:00:52.972+05:30  WARN 11896 --- [spring-boot-logging-demo-app] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-15T21:00:52.972+05:30  WARN 11896 --- [spring-boot-logging-demo-app] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-15T21:01:05.779+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-3] o.a.c.c.C.[.[localhost].[/premit]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-15T21:01:05.779+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-3] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-15T21:01:05.785+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-3] o.s.web.servlet.DispatcherServlet        : Completed initialization in 6 ms
+2026-09-15T21:01:07.132+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-8] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 665 ms
+2026-09-15T21:01:44.892+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-9] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:01:44.892+05:30 DEBUG 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-9] com.premit.controller.UserController     : Username : ram
+2026-09-15T21:01:44.892+05:30 DEBUG 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-9] com.premit.controller.UserController     : Userpassword : ram123
+2026-09-15T21:01:44.892+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-9] com.premit.controller.UserController     : Registration succesful for user with username ram
+2026-09-15T21:02:03.358+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-10] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:02:03.360+05:30 ERROR 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-10] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:02:12.149+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-6] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:02:12.149+05:30 ERROR 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-6] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:02:23.647+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-4] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:02:23.648+05:30 ERROR 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-4] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:02:24.603+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-5] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:02:24.603+05:30 ERROR 11896 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-5] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:04:46.631+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [RMI TCP Connection(12)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2026-09-15T21:04:46.637+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [RMI TCP Connection(12)-127.0.0.1] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-09-15T21:04:46.648+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-09-15T21:04:46.655+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [RMI TCP Connection(12)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-09-15T21:04:46.660+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-09-15T21:04:46.674+05:30  INFO 11896 --- [spring-boot-logging-demo-app] [RMI TCP Connection(12)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-09-15T21:04:55.139+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] c.p.SpringBootLoggingDemoAppApplication  : Starting SpringBootLoggingDemoAppApplication using Java 21.0.6 with PID 2756 (C:\Users\mutha\git\spring-boot-logging-demo-app\spring-boot-logging-demo-app\target\classes started by mutha in C:\Users\mutha\git\spring-boot-logging-demo-app\spring-boot-logging-demo-app)
+2026-09-15T21:04:55.143+05:30 DEBUG 2756 --- [spring-boot-logging-demo-app] [restartedMain] c.p.SpringBootLoggingDemoAppApplication  : Running with Spring Boot v4.0.8, Spring v7.0.9
+2026-09-15T21:04:55.145+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] c.p.SpringBootLoggingDemoAppApplication  : No active profile set, falling back to 1 default profile: "default"
+2026-09-15T21:04:55.218+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\mutha\.m2\repository\com\oracle\database\jdbc\ojdbc17\23.9.0.25.07\ojdbc17-23.9.0.25.07.jar referenced one or more files that do not exist: file:/C:/Users/mutha/.m2/repository/com/oracle/database/jdbc/ojdbc17/23.9.0.25.07/oraclepki.jar
+2026-09-15T21:04:55.219+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2026-09-15T21:04:55.220+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2026-09-15T21:04:56.539+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-09-15T21:04:56.571+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 17 ms. Found 0 JPA repository interfaces.
+2026-09-15T21:04:57.395+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 9999 (http)
+2026-09-15T21:04:57.436+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-09-15T21:04:57.437+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.24]
+2026-09-15T21:04:57.564+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2343 ms
+2026-09-15T21:04:57.984+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-09-15T21:04:58.066+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.24.Final
+2026-09-15T21:04:58.818+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-09-15T21:04:58.866+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-09-15T21:04:58.873+05:30  WARN 2756 --- [spring-boot-logging-demo-app] [restartedMain] c.zaxxer.hikari.util.DriverDataSource    : Registered driver with driverClassName=oracle.jdbc.driver.OracleDriver was not found, trying direct instantiation.
+2026-09-15T21:04:59.495+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection oracle.jdbc.driver.T4CConnection@3849cbf
+2026-09-15T21:04:59.498+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-09-15T21:04:59.904+05:30  WARN 2756 --- [spring-boot-logging-demo-app] [restartedMain] org.hibernate.orm.jdbc                   : HHH100123: Low default JDBC fetch size: 10 (consider setting 'hibernate.jdbc.fetch_size')
+2026-09-15T21:04:59.918+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:oracle:thin:@localhost:1521:orcl]
+	Database driver: Oracle JDBC driver
+	Database dialect: OracleDialect
+	Database version: 19.3
+	Default catalog/schema: undefined/C##PREMSAI
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: 10
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-09-15T21:05:00.646+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-09-15T21:05:00.664+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-09-15T21:05:01.033+05:30  WARN 2756 --- [spring-boot-logging-demo-app] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-09-15T21:05:02.049+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 9999 (http) with context path '/premit'
+2026-09-15T21:05:02.070+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [restartedMain] c.p.SpringBootLoggingDemoAppApplication  : Started SpringBootLoggingDemoAppApplication in 7.706 seconds (process running for 9.381)
+2026-09-15T21:05:02.080+05:30  WARN 2756 --- [spring-boot-logging-demo-app] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /v3/api-docs endpoint is enabled by default. To disable it in production, set the property 'springdoc.api-docs.enabled=false'
+2026-09-15T21:05:02.081+05:30  WARN 2756 --- [spring-boot-logging-demo-app] [restartedMain] o.s.core.events.SpringDocAppInitializer  : SpringDoc /swagger-ui.html endpoint is enabled by default. To disable it in production, set the property 'springdoc.swagger-ui.enabled=false'
+2026-09-15T21:05:09.421+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-2] o.a.c.c.C.[.[localhost].[/premit]        : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-09-15T21:05:09.421+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-09-15T21:05:09.428+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 7 ms
+2026-09-15T21:05:09.955+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-2] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:09.956+05:30 DEBUG 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-2] com.premit.controller.UserController     : Username : ram
+2026-09-15T21:05:09.959+05:30 DEBUG 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-2] com.premit.controller.UserController     : Userpassword : ram123
+2026-09-15T21:05:09.959+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-2] com.premit.controller.UserController     : Registration succesful for user with username ram
+2026-09-15T21:05:11.699+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-1] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:11.699+05:30 ERROR 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-1] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:05:13.834+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-3] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:13.834+05:30 ERROR 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-3] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:05:14.553+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-4] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:14.555+05:30 ERROR 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-4] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:05:15.084+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-6] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:15.084+05:30 ERROR 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-6] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:05:15.488+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-5] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:15.490+05:30 ERROR 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-5] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:05:15.681+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-7] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:15.682+05:30 ERROR 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-7] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:05:15.853+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-8] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:15.853+05:30 ERROR 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-8] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:05:16.040+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-9] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:16.041+05:30 ERROR 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-9] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:05:16.196+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-10] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:16.196+05:30 ERROR 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-10] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:05:16.429+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-2] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:16.430+05:30 ERROR 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-2] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
+2026-09-15T21:05:16.613+05:30  INFO 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-1] com.premit.controller.UserController     : Received user registration request with username ram
+2026-09-15T21:05:16.614+05:30 ERROR 2756 --- [spring-boot-logging-demo-app] [http-nio-9999-exec-1] com.premit.controller.UserController     : Exception occurred : User registration failed, user already existed with email : ram@gmail.com
